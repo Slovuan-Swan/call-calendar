@@ -21,7 +21,7 @@ app.use("/admin/bookings", bookingsRouter); // тот же роутер для G
 if (process.env.NODE_ENV === "production") {
   const staticPath = path.resolve(__dirname, "../../public");
   app.use(express.static(staticPath));
-  app.get("*", (req, res) => {
+  app.get("/{*splat}", (req, res) => {
     res.sendFile(path.join(staticPath, "index.html"));
   });
 }
