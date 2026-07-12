@@ -112,11 +112,9 @@ export function GuestBookPage() {
   if (error || !eventType) {
     return (
       <div className="space-y-4">
-        <Button asChild variant="outline" size="sm">
-          <Link to="/">
-            <ArrowLeft className="size-4" />
-            Назад
-          </Link>
+        <Button variant="outline" size="sm" render={<Link to="/" />}>
+          <ArrowLeft className="size-4" />
+          Назад
         </Button>
         <Alert variant="destructive">
           <AlertTitle>Ошибка</AlertTitle>
@@ -132,10 +130,8 @@ export function GuestBookPage() {
     <div className="space-y-6">
       <div className="flex items-start justify-between gap-4">
         <div>
-          <Button asChild variant="outline" size="sm" className="mb-4">
-            <Link to="/">
-              <ArrowLeft className="size-4" />К типам событий
-            </Link>
+          <Button variant="outline" size="sm" render={<Link to="/" />}>
+            <ArrowLeft className="size-4" />К типам событий
           </Button>
           <h1 className="text-2xl font-semibold tracking-tight">
             {eventType.title}

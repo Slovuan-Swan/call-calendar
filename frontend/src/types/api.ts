@@ -55,12 +55,13 @@ export interface AvailableSlot {
 }
 
 export class ApiError extends Error {
-  constructor(
-    public status: number,
-    message: string,
-    public code?: ErrorCode,
-  ) {
+  public status: number;
+  public code?: ErrorCode;
+
+  constructor(status: number, message: string, code?: ErrorCode) {
     super(message);
     this.name = "ApiError";
+    this.status = status;
+    this.code = code;
   }
 }

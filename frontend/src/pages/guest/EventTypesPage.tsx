@@ -45,7 +45,9 @@ export function GuestEventTypesPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight">Выберите тип встречи</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">
+          Выберите тип встречи
+        </h1>
         <p className="mt-1 text-sm text-muted-foreground">
           Доступные виды бронирования на ближайшие 14 дней.
         </p>
@@ -74,8 +76,11 @@ export function GuestEventTypesPage() {
               </CardHeader>
               <CardContent className="flex-1" />
               <CardFooter>
-                <Button asChild className="w-full">
-                  <Link to={`/book/${eventType.id}`}>Выбрать время</Link>
+                <Button
+                  className="w-full"
+                  render={<Link to={`/book/${eventType.id}`} />}
+                >
+                  Выбрать время
                 </Button>
               </CardFooter>
             </Card>
