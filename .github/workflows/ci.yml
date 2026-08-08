@@ -42,6 +42,3 @@ jobs:
 
       - name: docker-build
         run: docker build -t call-calendar .
-
-      - name: docker-run
-        run: docker run -p 3000:3000 -e PORT=3000 call-calendar
