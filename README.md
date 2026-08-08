@@ -1,6 +1,6 @@
 # 📞 Call Calendar
 
-[![CI Status](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/my-check.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-386/actions)
+[![CI Status](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/ci.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-386/actions)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_frontend-project-386&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_frontend-project-386)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_frontend-project-386&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_frontend-project-386)
 [![Playwright E2E](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/playwright.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/playwright.yml)
@@ -82,7 +82,6 @@ npx playwright show-report
 
 ### Автоматизация в CI
 
-- **My Tests** — автоматическая проверка сборки и корректности Docker-контейнера.
 - **Playwright** — автоматический прогон E2E-тестов в headless-браузере Chromium при каждом пуше.
 
 ---
