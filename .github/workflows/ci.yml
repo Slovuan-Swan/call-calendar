@@ -1,19 +1,20 @@
-name: my-check
+name: CI
 
 on:
   push:
-    branches:
-      - "**"
-    tags:
-      - "**"
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-
-      - name: my project check
-        uses: my/project-action@release
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          my-id: ${{ secrets.MY_ID }}
+          node-version: 20
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run test
+      - run: npm run build
