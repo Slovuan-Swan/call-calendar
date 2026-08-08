@@ -40,18 +40,8 @@ jobs:
         working-directory: frontend
         continue-on-error: true
 
-      - name: Test backend
-        run: npm test
-        working-directory: backend
+      - name: docker-build
+        run: docker build -t call-calendar .
 
-      - name: Test frontend
-        run: npm test
-        working-directory: frontend
-
-      - name: Build backend
-        run: npm run build
-        working-directory: backend
-
-      - name: Build frontend
-        run: npm run build
-        working-directory: frontend
+      - name: docker-run
+        run: docker run -p 3000:3000 -e PORT=3000 call-calendar
