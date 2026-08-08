@@ -1,8 +1,11 @@
 # 📞 Call Calendar
 
-[![Hexlet Check](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-386/actions)
+[![CI Status](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/my-check.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-386/actions)
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_frontend-project-386&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_frontend-project-386)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_frontend-project-386&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_frontend-project-386)
 [![Playwright E2E](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/playwright.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/playwright.yml)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![React](https://img.shields.io/badge/React-19-blue)
 Сервис бронирования встреч с публичной (гостевой) и административной частями.  
 Проект выполнен в подходе **Design First** — API-контракт описан на [TypeSpec](https://typespec.io/) до реализации.
 
@@ -78,7 +81,7 @@ npx playwright show-report
 
 ### Автоматизация в CI
 
-- **Hexlet Check** — автоматическая проверка сборки и корректности Docker-контейнера.
+- **My Tests** — автоматическая проверка сборки и корректности Docker-контейнера.
 - **Playwright** — автоматический прогон E2E-тестов в headless-браузере Chromium при каждом пуше.
 
 ---

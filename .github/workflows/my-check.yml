@@ -1,0 +1,19 @@
+name: my-check
+
+on:
+  push:
+    branches:
+      - "**"
+    tags:
+      - "**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: my project check
+        uses: my/project-action@release
+        with:
+          my-id: ${{ secrets.MY_ID }}
