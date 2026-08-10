@@ -1,9 +1,9 @@
 # 📞 Call Calendar
 
 [![CI](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/ci.yml/badge.svg)](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/ci.yml)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_frontend-project-386&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_frontend-project-386)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_frontend-project-386&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_frontend-project-386)
-[![Playwright E2E](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/playwright.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-386/actions/workflows/playwright.yml)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_call-calendar&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_call-calendar)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_call-calendar&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_call-calendar)
+[![Playwright E2E](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/playwright.yml/badge.svg)](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/playwright.yml)
 [![Release Please](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/release-please.yml/badge.svg)](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/release-please.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![React](https://img.shields.io/badge/React-19-blue)
