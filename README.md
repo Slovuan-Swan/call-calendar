@@ -1,8 +1,8 @@
 # 📞 Call Calendar
 
 [![CI](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/ci.yml/badge.svg)](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/ci.yml)
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_call-calendar&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_call-calendar)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_call-calendar&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_call-calendar)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_call-calendar&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_call-calendar)
 [![Playwright E2E](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/playwright.yml/badge.svg)](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/playwright.yml)
 [![Release Please](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/release-please.yml/badge.svg)](https://github.com/Slovuan-Swan/call-calendar/actions/workflows/release-please.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

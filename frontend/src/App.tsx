@@ -1,7 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { AdminLayout, AppLayout } from "@/components/layout/AppLayout";
 import { AdminEventTypesPage } from "@/pages/admin/EventTypesPage";
-import { AdminBookingsPage } from "@/pages/admin/BookingsPage"; // только что создали
+import { AdminBookingsPage } from "@/pages/admin/BookingsPage";
 import { GuestEventTypesPage } from "@/pages/guest/EventTypesPage";
 import { GuestBookPage } from "@/pages/guest/BookPage";
 
